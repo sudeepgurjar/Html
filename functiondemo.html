@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+			border: 2px solid darkred;
+			background-color: orange;
+			margin: 5px;
+			text-align: center;
+
+		}
+	</style>
+</head>
+<body>
+	<div onmouseenter="work()" onmouseleave="work1()" onclick="work2()" id="abc">sudeep</div>
+
+<script type="text/javascript">
+	function work(){
+		document.getElementById("abc").innerHTML="mouse enter";
+	}
+	function work1(){
+		document.getElementById("abc").innerHTML="mouse leave";
+		
+	}
+	function work2(){
+		document.getElementById("abc").innerHTML="mouse click";
+	}
+</script>
+</body>
+</html>

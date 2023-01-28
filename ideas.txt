@@ -1,0 +1,4 @@
+text sumraiztion = 60 sec news
+video sumraiztion 
+
+item exchange ,exchange.com

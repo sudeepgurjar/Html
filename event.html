@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<input type="email" name="ss" value="SUDEEPGURJAR@GMAIL.COM" id="abc" onblur="lower()">
+<input type="text" name="" value="sudeep" id="xcv" onfocus="upper()">
+
+<script>
+	function lower()
+	{
+		var email=document.getElementById("abc").value
+        
+        document.getElementById("abc").value = email.toLowerCase()
+	}
+	function upper()
+	{
+		var email=document.getElementById("xcv").value
+        
+        document.getElementById("xcv").value = email.toUpperCase()
+	}
+</script>
+</body>
+</html>
