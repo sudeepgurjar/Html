@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>onbliure</title>
+</head>N
+
+
+<body>
+
+	Email:<input type="email" value="SUDEEP@GMAIL.COM" Id="t1" onblur="fun1()"/>
+    username:<input type="text" name="" value="sudeep" id="t2" onfocus="fun2()"/>
+
+</body>
+<script type="text/javascript">
+	function fun1(){
+		let email= document.getElementById('t1').value
+		document.getElementById('t1').value=email.toLowerCase();
+	}
+	function fun2(){
+		let username=document.getElementById('t2').value
+		document.getElementById('t2').value=username.toUpperCase();
+	}
+</script>
+</html>
