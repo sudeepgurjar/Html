@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>filter</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"> </script>
+    
+</head>
+<body>
+
+<div id="aa">jfiadsjfgipwjfipwerjvpoqdskjfv[owrjvpowrm</div>
+
+<p class="para"> qsjduoewihdcuowjcioewncioewjfc</p>
+
+<div id="ab">jivjqerpiogkjporewkjgiperkjgpoerjkgp0[rjg</div>
+
+<p class="para"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt  cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<button onclick="fun1()"> click </button>
+
+<script type="text/javascript">
+    	function fun1(){
+    		$(document).ready(function(){
+    		$("p").filter(".para").css("background-color","red")
+    		});
+    	};
+    </script>
+
+</body>
+</html>
